@@ -1,0 +1,34 @@
+.navbar {
+  background-color:#5b4797;
+  padding: 35px 10px; /* Add padding */
+  display: flex; /* Use flexbox layout */
+  justify-content: center;/* Align items to the right */
+  position: sticky; /* Make navbar sticky */
+  top: 0; /* Position it at the top */
+  z-index: 1000; /* Set z-index */
+}
+
+.navbar--items ul {
+  display: flex; /* Use flexbox layout */
+  list-style: none; /* Remove default list styles */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar--item {
+  margin-right: 70px; /* Add margin between items */
+}
+
+.navbar--content {
+  text-decoration: none; /* Remove underline */
+  color:whitesmoke; /* Text color */
+  font-size: 20px;
+}
+
+.navbar--content:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+  
+  

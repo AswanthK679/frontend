@@ -1,0 +1,26 @@
+.students {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex; /* Use flexbox to center content vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: linear-gradient(to right bottom, #5b4797, #8272b2, #aaa0cc, #d3cfe6, #ffffff);
+    gap: 10px; 
+}
+
+.students .card-body {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.students .card {
+    width: 250px; /* Adjust the card width according to your preference */
+  }
+  
+
+  
+  .students .card-body > div {
+    margin-bottom: 10px; /* Adjust the margin between student info sections */
+  }
+  
+  

@@ -1,0 +1,102 @@
+.details_section {
+    
+  background-image: linear-gradient(to right bottom, #5b4797, #8272b2, #aaa0cc, #d3cfe6, #ffffff);      
+  padding-top: 30px;
+  
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+
+.heading h1 {
+margin-top: 30px;
+font-size: 50px;
+margin-left: 250px;
+color: whitesmoke;
+}
+
+.boxes {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.box {
+  width: 1200px; /* Adjusted size */
+  height: 400px; /* Adjusted size */
+  margin: 0 20px; /* Adjusted margin */
+  justify-content: center;
+  color: #ffffff; /* White text color */
+  border: 2px solid white; /* Black border */
+  border-radius: 50px;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.desc_txt{
+  font-size: 20px;
+}
+
+.objective {
+  font-size: 20px;
+  color: white; /* Adjust color as needed */
+  margin-left: 250px;
+  width: 700px;
+ 
+  
+}
+
+.objective p {
+  margin: 0; /* Remove default margin for the paragraph */
+}
+
+@media only screen and (max-width: 768px) {
+  .heading h1 {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center; /* Center align the heading */
+  }
+
+  .boxes {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .objective {
+    margin-left: 0;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .heading h1 {
+    font-size: 40px;
+  }
+
+  .box {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .box {
+    width: 40%;
+  }
+}
